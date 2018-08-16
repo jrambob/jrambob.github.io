@@ -1,0 +1,152 @@
+body{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(oriental/oriental.png);
+    padding:0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #777777;
+}
+li{
+    display: list-item;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    margin: 20px;
+}
+form{
+    display: block;
+    margin:20px;
+}
+input{
+    width: 95%;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+textarea{
+    width: 95%;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+button{
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+}
+.about{
+    color: #4aaaa5
+}
+.contact{
+    color: #4aaaa5
+}
+.portfolio{
+    color: #4aaaa5
+}
+#pic1{
+    background-image: url(../images/picsum1.jpg)
+}
+#pic2{
+    background-image: url(../images/picsum2.jpg)
+}
+#pic3{
+    background-image: url(../images/picsum3.jpg)
+}
+#pic4{
+    background-image: url(../images/picsum4.jpg)
+}
+#pic5{
+    background-image: url(../images/picsum5.jpg);
+    margin-bottom: 100px;
+}
+.contactdiv{
+    padding: 20px;
+}
+
+.label{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    margin: 0px
+}
+.boxlittle{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 20px;
+}
+.profile{
+    float: left;
+    padding: 20px;
+}
+.footer{
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 9999;
+}
+.body2{
+    position: relative;
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 960px;
+    clear: both;
+    border: 2px solid #dddddd;
+    overflow: auto;
+    float: left;
+    margin-left: 310px;
+}
+.heading{
+    padding: 20px;
+}
+.logo{
+    background-color: #4aaaa5;
+    float: left;
+    padding: 20px;
+    color: #ffffff;
+    margin: 0px;
+}
+.navigationlist li{
+    float: left;
+    padding: 20px;
+}
+.navigationlist{
+    float: left;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+}
+.body1{
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0px;
+    border-bottom: 2px solid #cccccc;
+}
+.navigationbar{
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+}
+.navigationlist{
+    float: left;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+}
